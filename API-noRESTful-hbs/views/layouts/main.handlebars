@@ -1,0 +1,80 @@
+<div class="container">
+  <h2 class="title">All Products</h2>
+  <table>
+      <thead>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Thumbnail</th>
+      </thead>
+    {{#each products}}
+      <tr>
+          <td>{{name}}</td>
+          <td>$ {{price}}</td>
+          <td><img src="{{thumbnail}}" alt="{{name}}"></td>
+      </tr>
+    {{/each}}
+  </table>
+  <a href="/">Create product</a>    
+
+</div>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto',sans-serif;
+
+  }
+  .title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: center;
+  }
+  table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(odd) {
+          background-color: #9b989849;
+        }
+        img{
+          width: 150px;
+          height: 190px;
+          border-radius:10px;
+        }
+        a{
+            font-family: "Roboto",Helvetica,Arial;
+
+            text-decoration: none;
+            color: #00bcd4;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+            border-radius: 1rem;
+            padding: 10px;
+            margin: 1rem auto;
+            width:100%;
+            max-width: 200px;
+            display:block; 
+            color :#000;
+        }
+        a:hover{
+            background-color: #c6c5c9;
+            cursor: pointer;
+            transition: all .4s;
+        }
+
+</style>

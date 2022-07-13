@@ -1,0 +1,88 @@
+    body{
+        height: 100vh;
+        background-color: #fff;
+    }        
+        
+        form {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+            display: flex;
+            flex-direction: column;
+            margin: 5rem auto;
+            max-width: 400px;
+            border-radius: 1rem;
+            padding: 2rem;
+            background-color: #e1e1e1a3;
+        }
+
+
+        h1{
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.4rem;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+        input{
+            width: 100%;
+            border:none;
+            border-radius:.51rem;
+            padding: .4rem;
+            background-color: rgba(204, 204, 204, 0.704);
+        }
+        input:focus{
+            outline: none;
+        }
+        div {
+            max-width: 600px;
+            margin-bottom: 10px;
+        }
+        input[type="file"]{
+            padding: .4rem;
+            background-color:#fff;
+        }
+        label {
+            margin:.5rem 0;
+            text-transform: uppercase;
+            display: block;
+            color: #666;
+            font-family: "Helvetica Neue",Helvetica,Arial;
+        }
+        input[type="submit"]{
+            margin-top: 1rem;
+            width: 100%;
+            border-radius: .5rem;
+            border:none;
+            background-color: #151717;
+            padding:.3rem 1rem;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        input[type="submit"]:hover{
+            background-color: #000;
+            cursor: pointer;
+        }
+
+        a{
+            font-family: "Helvetica Neue",Helvetica,Arial;
+
+            text-decoration: none;
+            color: #00bcd4;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #e1e1e1;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+            border-radius: 1rem;
+            padding: 10px;
+            margin: 10px auto;
+            width:100%;
+            max-width: 400px;
+            display:block; 
+            color :#000;
+        }
+        a:hover{
+            background-color: #fff;
+            cursor: pointer;
+            transition: all .4s;
+        }

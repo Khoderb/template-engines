@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BIKE",
+    "price": 400,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_773536-MLA48483146366_122021-V.webp",
+    "id": "1g7poiie9dpmf6915ni"
+  },
+  {
+    "name": "used IPHONE 8",
+    "price": 300,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_639441-MLA31003118785_062019-V.webp",
+    "id": "1g7poiie94oe9d871fq8"
+  },
+  {
+    "name": "used IPHONE 11 ",
+    "price": 500,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_724631-MLA46114990506_052021-V.webp",
+    "id": "1g7poiie9qba5uda87k"
+  },
+  {
+    "name": "TV",
+    "price": 300,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_686081-MLA47203370323_082021-V.webp",
+    "id": "1g7pols3277poag264io"
+  }
+]

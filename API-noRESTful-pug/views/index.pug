@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title API no RESTfull
+    body 
+    
+    h2 All Products
+    -   var values = products;
+    table(style="borderCollapse: collapse,")
+        each val in values.length ? values : ['There are no values']
+            thead
+                tr
+                    th(style="border: 1px solid #000000")= 'Name'
+                    th(style="border: 1px solid #000000")= 'Price'
+                    th(style="border: 1px solid #000000")= 'URL' 
+            tbody
+                tr
+                    td(style="border: 1px solid #000000")= val.name
+                    td(style="border: 1px solid #000000")= '$ '+val.price
+                    td(style="border: 1px solid #000000")
+                        img(src=(val.thumbnail), alt=val.name)
+    div(style="text-align: center; marginTop: 20px;")
+        a(style="border: 1px solid #000000;margin:20px; padding:10px; background-color:#ccc; color:#000;" href="/") Create Product
+        
